@@ -1,0 +1,27 @@
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "armando casas",
+    "number": 3005568797
+}
+
+###
+
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "armando casas",
+    "number": ""
+}
+
+###
+
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "",
+    "number": 3005568797
+}
